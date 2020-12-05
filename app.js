@@ -19,7 +19,7 @@ const itemSchema=new mongoose.Schema({
   itemprice:Number,
 });
 
-const Item=mongoose.model("Item",itemSchema);
+const Item = mongoose.model("Item",itemSchema);
 
 const categorySchema=new mongoose.Schema({
   categoryname:String,
